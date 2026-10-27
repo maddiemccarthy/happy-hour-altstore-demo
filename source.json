@@ -1,0 +1,43 @@
+{
+    "name": "Happy Hour Demo Source",
+    "subtitle": "Madison McCarthy's personal AltStore source.",
+    "description": "A personal AltStore Classic source for distributing the Happy Hour cocktail recipe app outside the App Store.",
+    "iconURL": "https://raw.githubusercontent.com/maddiemccarthy/happy-hour-altstore-demo/main/icon.png",
+    "website": "https://github.com/maddiemccarthy/happy-hour-altstore-demo",
+    "tintColor": "#6B172B",
+    "nsfw": false,
+    "featuredApps": [
+        "com.madisonmccarthy.happyhour"
+    ],
+    "apps": [
+        {
+            "name": "Happy Hour",
+            "bundleIdentifier": "com.madisonmccarthy.happyhour",
+            "developerName": "Madison McCarthy",
+            "subtitle": "Three classic cocktail recipes, offline.",
+            "localizedDescription": "Happy Hour is a simple, offline cocktail recipe app for Margarita, Espresso Martini, and Aperol Spritz. Each recipe shows ingredient quantities, prep time, glass type, and numbered instructions, plus a Surprise Me button to pick a recipe for you. No accounts, no backend, no ads.",
+            "iconURL": "https://raw.githubusercontent.com/maddiemccarthy/happy-hour-altstore-demo/main/icon.png",
+            "tintColor": "#6B172B",
+            "category": "lifestyle",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "buildVersion": "1",
+                    "date": "2026-10-27",
+                    "size": 69143,
+                    "downloadURL": "https://github.com/maddiemccarthy/happy-hour-altstore-demo/releases/download/v1.0/HappyHour.ipa",
+                    "localizedDescription": "Initial release.",
+                    "minOSVersion": "27.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "get-task-allow",
+                    "keychain-access-groups"
+                ],
+                "privacy": {}
+            }
+        }
+    ],
+    "news": []
+}
